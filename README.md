@@ -35,6 +35,12 @@ This project is motivated by the need for a structurally interpretable framework
 
 ---
 
+## Project Structure
+
+- `matlab/` – Original implementation used for the Bachelor’s thesis
+- `python/` – Ongoing Python re-implementation for reproducibility and extensibility
+- `docs/` – Non-technical documentation and executive summaries
+
 ## 3. Data and Dataset Construction
 
 ### Frequency and Coverage
