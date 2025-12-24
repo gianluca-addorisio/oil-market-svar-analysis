@@ -23,3 +23,11 @@ figures/
 
 # Notebooks temp
 *.ipynb~
+
+# Data (never version)
+data/raw/
+data/processed/
+
+# Python cache
+__pycache__/
+*.pyc
