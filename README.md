@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Oil Market Structural VAR Analysis  
 **Structural Identification of Oil Supply, Global Demand, and Precautionary Shocks with Industrial Applications**
 
@@ -121,20 +120,6 @@ These components are fully implemented in MATLAB and are being migrated to Pytho
 | Hedging applications | ✅ | ⏳ |
 
 ⏳ = planned / in progress
-
----
-
-## 7. Reproducibility (Python)
-
-The Python pipeline is fully reproducible starting from raw data:
-
-```bash
-python python/src/oil_svar/build_dataset.py
-python python/src/oil_svar/var/lag_selection.py
-python python/src/oil_svar/var/var_fit.py
-python python/src/oil_svar/var/irf_fevd.py
-python python/src/oil_svar/var/svar_sign.py
-Generated datasets and results are stored in data/processed/ (ignored by Git).
 
 ---
 
